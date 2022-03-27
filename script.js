@@ -47,7 +47,6 @@ window.addEventListener("load", () => {
     ? localStorage.setItem("point", DEFAULT_POINTS)
     : localStorage.setItem("point", localStorage.getItem("point"));
 });
-
 const clickedAnswer = (arrElement) => {
   arrElement.map((item) => {
     item.addEventListener("click", (e) => {
